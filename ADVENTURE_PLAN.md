@@ -11,3 +11,6 @@ This tech career simulator is going to diverge into three tech roles that are po
 4. After this, there will be a "Retire" path which will lead the user to two options: becoming a volunteer teacher for people in need, or traveling the world.
 
 5. Regardless of the chosen path, the story will reconverge to a point called "Legacy". At this stage, a message will be displayed congratulating the user on building a successful career and leaving a lasting legacy for future generations.
+
+# Layout and design
+The webpage is going to be quite simple. It will have just some question coming like if you were doing a quizz. In this way, the 
