@@ -16,16 +16,19 @@
                 <h1>Welcome to Adventure Game Plan!</h1>
                 <p>This is the tech career simulator. A game that mimics a possible career journey. If you want to get
                     started, click on the button below.</p>
+                <button id="start-btn">Start Game</button>
             </div>
 
+
             <div id="question-container">
-                <p id="question">Question buttons will be injected here by JavaScript </p>
+                <p id="context"><!--Context about the situation will be injected here by JavaScript--></p>
+                <p id="question"><!--Question buttons will be injected here by JavaScript--></p>
             </div>
 
             <ul id="answers">
                 <!-- Answer buttons will be injected here by JavaScript -->
             </ul>
-            <button id="next-btn" onclick="nextQuestion()">Next</button>
+            <button id="next-btn" onclick="nextQuestion()" class="hidden">Next</button>
         </div>
 
         <footer>
