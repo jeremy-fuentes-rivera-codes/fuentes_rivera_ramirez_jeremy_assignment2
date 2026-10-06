@@ -13,4 +13,4 @@ This tech career simulator is going to diverge into three tech roles that are po
 5. Regardless of the chosen path, the story will reconverge to a point called "Legacy". At this stage, a message will be displayed congratulating the user on building a successful career and leaving a lasting legacy for future generations.
 
 # Layout and design
-The webpage is going to be quite simple. It will have just some question coming like if you were doing a quizz. In this way, the 
+The webpage is going to be quite simple. It will feel like a quiz with buttons as quizzes have questions, buttons, and follow-up questions. It will work in much the same way. However, it will be different because each question provides situational text that guides the user through an adventure where they have to choose the best path. To make the adventure more appealing, I will add a congratulation photo at the end of the game to make users feel happier with their outcome. The background will be dark blue and the buttons will be white to assist people with color blindness.
