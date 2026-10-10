@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (currentState == 2 && chosenPath == 2) {
             // This shows the data analyst path
 
-            document.getElementById("question").textContent = "You have selected Data Analyst! The sales dashboard shows numbers that do not match the finance report, and the executives meet tomorrow. How do you solve it?";
+            document.getElementById("question").textContent = "The sales dashboard shows numbers that do not match the finance report, and the executives meet tomorrow. How do you solve it?";
 
             // Adding option buttons
             addAnswerButton("Audit the data pipeline to find the source of the error", 3, 1);
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (currentState == 2 && chosenPath == 3) {
             // This shows the DevOps path
 
-            document.getElementById("question").textContent = "You have selected DevOps! At 3 AM the production servers go down and customers cannot log in. How do you solve it?";
+            document.getElementById("question").textContent = "At 3 AM the production servers go down and customers cannot log in. How do you solve it?";
 
             // Adding option buttons
             addAnswerButton("Roll back to the last stable release", 3, 1);
@@ -70,6 +70,9 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (currentState == 5) {
             // Reconverge point: The Legacy 
             document.getElementById("question").textContent = "Congratulations! You built a successful career and left a lasting legacy for future generations.";
+
+            /* Displaying congratulations image*/
+            document.getElementById("congrats-img").classList.remove("hidden");
         }
     }
 

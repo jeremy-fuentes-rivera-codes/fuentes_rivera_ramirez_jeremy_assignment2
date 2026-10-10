@@ -1,4 +1,74 @@
-/* Temporarily added to allow hidden elements */
+/* Implemented to hide the welcome-screen */
 .hidden {
+    display: none
+}
+
+body {
+    font-family: 'Google Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 1em;
+    background-color: #0b1f4b;
+    color: #ffffff;
+    font-size: 1.125em;
+    line-height: 1.5em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#game-container {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 1.5em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1.5em
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    padding: 0;
+}
+
+button {
+    margin: 0.5em 0;
+    padding: 0.75em 1em;
+    background-color: #ffffff;
+    color: #0b1f4b;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #cfd8f0;
+}
+
+#congrats-img {
+    max-width: 350px;
+    display: block;
+    margin: 1.5em auto;
+}
+
+/* Specifically created to make the image hidden*/
+#congrats-img.hidden {
     display: none;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+
+    #game-container {
+        padding: 1em;
+    }
 }
