@@ -35,9 +35,20 @@ footer {
     flex-direction: column;
     margin: 1em 0;
     padding: 0;
+    align-items: center;
+    gap: 0.6em;
+    list-style-type: none;
+}
+
+#answers li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 button {
+    width: 85%;
+    max-width: 450px;
     margin: 0.5em 0;
     padding: 0.75em 1em;
     background-color: #ffffff;
@@ -53,7 +64,9 @@ button:hover {
 }
 
 #congrats-img {
-    max-width: 350px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
     display: block;
     margin: 1.5em auto;
 }

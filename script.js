@@ -86,6 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
             renderQuestion();
         });
 
-        document.getElementById("answers").appendChild(newButton);
+        const listElements = document.createElement("li");
+        listElements.appendChild(newButton);
+
+        document.getElementById("answers").appendChild(listElements);
     }
 });
