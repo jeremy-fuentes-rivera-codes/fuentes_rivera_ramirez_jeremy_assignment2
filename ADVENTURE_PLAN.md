@@ -1,4 +1,4 @@
-# Adventure Game Plan: Tech Career Simulator
+# Adventure Game Plan: Tech Career Adventure
 This tech career simulator is going to diverge into three tech roles that are popular today. Each roles presents two decision pathways, which later reconverge at key story milestones. In total, the game features two major reconvergence points that lead to a unified finaly legacy ending.
 
 ## Structure
